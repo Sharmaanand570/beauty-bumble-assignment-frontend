@@ -1,0 +1,21 @@
+.error{
+    position: relative;
+    background-color: red;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 24px;
+    border-radius: 20px;
+    text-align: center;
+    animation-name: leftToRight;
+    animation-duration: 0.5s;
+}
+
+@keyframes leftToRight{
+    0%{left: -100%;}
+    100%{left: 0%;}
+}
+
+.error p{
+    color: white;
+    font-weight: bold;
+}
